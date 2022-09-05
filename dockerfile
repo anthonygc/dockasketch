@@ -4,8 +4,9 @@ RUN apt-get update && apt-get -y install git htop vim python3 python3-pip clusta
 
 
 RUN \
-pip3 install --upgrade pip \
-pip install bioPython
+pip3 install --upgrade pip 
+
+
 
 WORKDIR /root
 
