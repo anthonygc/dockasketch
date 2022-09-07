@@ -23,3 +23,14 @@ python
 python3 --version
 gcc --version
 exit
+curl -OL https://golang.org/dl/go1.16.7.linux-amd64.tar.gz
+sha256sum go1.16.7.linux-amd64.tar.gz
+sudo tar -C /usr/local -xvf go1.16.7.linux-amd64.tar.gz
+sudo nano ~/.profile
+
+
+sudo atom  ~/.profile
+sudo atom ~/.profile
+code .
+code.
+exit

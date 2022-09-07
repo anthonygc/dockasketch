@@ -17,4 +17,6 @@ RUN set -e && echo "Installing Packages with apt-get..." \
   && echo "Installing Python..." \
   && curl -fsSL https://install.python-poetry.org | python \
   && echo "Installing golang..." \
-  && wget -OL https://golang.org/dl/go1.16.7.linux-amd64.tar.gz \
+  && wget -OL https://golang.org/dl/go1.16.7.linux-amd64.tar.gz
+RUN echo "export PATH=$PATH:.local/bin" >> ~/.bashrc
+
