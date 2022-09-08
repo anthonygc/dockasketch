@@ -34,3 +34,5 @@ sudo atom ~/.profile
 code .
 code.
 exit
+poetry --version
+exit
