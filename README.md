@@ -24,7 +24,7 @@ Next run `docker run --it -rm -v "%cd%:/root" dockasketch` to run the newly buil
 
 Note: For demonstration purposes, commands won't run without repo creators credentials.
 
-To deploy the image to dockerhub, run;
+To deploy the image to dockerhub run;
 
 `docker login` to login to the dockerhub account.
 
